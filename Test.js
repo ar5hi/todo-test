@@ -1,37 +1,4 @@
-import React, { useEffect, useState } from 'react'
-
-// function Test() {
-//     const [users, setUsers] = useState([])
-
-//   useEffect(() => {
-//     async function fetchUsers() {
-//       try {
-//         const response = await fetch ('https://jsonplaceholder.typicode.com/users')
-//         const data = await response.json()
-//         setUsers(data)
-//       } catch (error) {
-//         console.error(error)
-//       }
-//     }
-
-//     fetchUsers()
-//   }, [])
-//   return (
-//     <div>
-//       {users.filter(
-//               (data) => data.name.includes('M') || data.username.includes('M')
-//           ).map(prsn => <p>{prsn.name}, { prsn.username}</p>)}
-
-//       {users.map((user) => (
-//         <div key={user.id}>
-//           <h2>{user.name}</h2>
-//           <p>{user.email}</p>
-//         </div>
-//       ))}
-
-//     </div>
-//   )
-// }
+import React, { useState } from 'react'
 
 function Test() {
   const [todos, setTodos] = useState([])
