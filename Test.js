@@ -7,6 +7,7 @@ function Test() {
    setIpvalue(event.target.value)
   }
   const addTodoHandler = () => {
+     if (!ipvalue) return;
     const newTodo = {
       task: ipvalue,
       status: false,
